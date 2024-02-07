@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="States1" Class="StatesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\States1.mdf;Integrated Security=True;Persist Security Info=False;Connect Timeout=30;Encrypt=False;Trust Server Certificate=True;User Instance=True" SettingsObjectName="BroecklynneMeyer_CPT_206_Assignment3.Properties.Settings" SettingsPropertyName="States1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.States" Member="States">
+    <Type Name="State">
+      <Column Name="StateID" Type="System.String" DbType="NVarChar(255) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Population" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Flower" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Bird" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Capitol" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="FlagDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Color" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="MedianIncome" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ComputerRelatedJobs" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="LargestCity" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SecondLargestCity" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ThirdLargestCity" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SSMA_TimeStamp" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+    </Type>
+  </Table>
+</Database>
