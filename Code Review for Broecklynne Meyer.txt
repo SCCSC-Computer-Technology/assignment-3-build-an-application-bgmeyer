@@ -1,0 +1,4 @@
+Code Review for Broecklynne Meyer :)
+
+I like the way you designed your WinForms. It's very well organized and easy to use. As well as your code, it's very well commented and easy to follow along and understand the process.
+After looking at my code and comparing it to yours,  it seems I completely forgot to even comment on most of it. Your code helped me understand some problems I was having with my own and will definitely be taking notes! Awesome job!! 
